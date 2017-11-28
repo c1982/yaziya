@@ -8,7 +8,7 @@ desilyon birimine kadar çevirir.
 ## Örnek
 
 ```go
-import "github.com/c1982/Yaziya"
+import "github.com/c1982/yaziya"
 
 func main() {
     var fiyat int64
@@ -26,7 +26,7 @@ func main() {
 ## Yükleme (Installation)
 
 ```
-go get -u github.com/c1982/Yaziya
+go get -u github.com/c1982/yaziya
 ```
 
 ## Bugs
