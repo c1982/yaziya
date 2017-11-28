@@ -30,8 +30,6 @@ func Cevir(number float64) (text string, err error) {
 
 	numberStr := strconv.FormatFloat(number, 'f', 0, 64)
 
-	fmt.Println("Number:", numberStr)
-
 	if len(numberStr) > 34 {
 		return "", errDesilyon
 	}
