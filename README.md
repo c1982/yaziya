@@ -1,5 +1,5 @@
 # Yaziya
-Rakam'ı Yazıya Çevirir
+Rakamı Yazıya Çevirir
 
 ## Ne Yapabilir
 
