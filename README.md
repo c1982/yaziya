@@ -8,19 +8,35 @@ desilyon birimine kadar çevirir.
 ## Örnek
 
 ```go
-import "github.com/c1982/yaziya"
+import (		
+	"fmt"
+	"github.com/c1982/yaziya"	
+)
 
 func main() {
-    var fiyat int64
 
-    fiyat = 12587
-    fiyatStr := Yaziya.Cevir(fiyat)
-    
-    fmt.Println(fiyatStr)
+	yazi, _ := yaziya.Cevir(1)
+	fmt.Println(yazi)
 
-    //Output
-    //oniki bin beşyüzseksenyedi	
+	yazi, _ = yaziya.Cevir(28)
+	fmt.Println(yazi)
+
+	yazi, _ = yaziya.Cevir(152)
+	fmt.Println(yazi)
+
+	yazi, _ = yaziya.Cevir(1048)
+	fmt.Println(yazi)
+
+	yazi, _ = yaziya.Cevir(65870)
+	fmt.Println(yazi)
 }
+
+//output:
+//bir
+//yirmisekiz
+//yüzelliiki
+//bin kırksekiz
+//altmışbeş bin sekizyüzyetmiş
 ```
 
 ## Yükleme (Installation)
