@@ -1,4 +1,4 @@
-package Yaziya
+package yaziya
 
 import(
 	"testing"
