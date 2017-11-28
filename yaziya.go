@@ -1,6 +1,7 @@
 package yaziya
 
 import (
+	"errors"
 	"fmt"
 	"strconv"
 	"strings"
@@ -8,6 +9,8 @@ import (
 
 var (
 	birler, onlar, yuzler, binler []string
+	errPositiveNumber             = errors.New("Sadece pozitif tam sayılar dikkate alınır.")
+	errDesilyon                   = errors.New("Desilyon (34 rakam) basamağını geçtiniz.")
 )
 
 func init() {
@@ -18,10 +21,21 @@ func init() {
 }
 
 //Cevir rakam olarak aldığı parametreyi sözlü bir şekilde geri döndürür.
-func Cevir(number int64) (text string, err error) {
+func Cevir(number float64) (text string, err error) {
 	var b = 0
 
-	numberStr := fmt.Sprint(number)
+	if number < 0 {
+		return "", errPositiveNumber
+	}
+
+	numberStr := strconv.FormatFloat(number, 'f', 0, 64)
+
+	fmt.Println("Number:", numberStr)
+
+	if len(numberStr) > 34 {
+		return "", errDesilyon
+	}
+
 	numberStr = padding3(numberStr)
 
 	for i := len(numberStr); i > 0; i -= 3 {
@@ -38,7 +52,7 @@ func Cevir(number int64) (text string, err error) {
 		text = strings.TrimPrefix(text, "bir ")
 	}
 
-	return text, err
+	return text, nil
 }
 
 func admiral(str string) string {
