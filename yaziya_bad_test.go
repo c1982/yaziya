@@ -2,21 +2,17 @@ package yaziya
 
 import (
 	"testing"
+	"github.com/stretchr/testify/require"
+	"github.com/stretchr/testify/assert"
 )
 
 func Test_Yaziya_Cevir_Birler(t *testing.T) {
-	var price float64
-	price = 5
+	var price float64 = 5
 
 	text, err := Cevir(price)
+	require.Nil(t, err)
 
-	if err != nil {
-		t.Error(err)
-	}
-
-	if text != "beş" {
-		t.Error("Text:", text)
-	}
+	assert.Equal(t, "beş", text)
 }
 
 func Test_Yaziya_Cevir_Onlar(t *testing.T) {
