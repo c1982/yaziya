@@ -61,3 +61,5 @@ ingilizce brach'ı için değişiklklşe
 
 
 release 1.3.0 için readme güncellendi.
+
+fixledim 1.3.0 için. Artık 1.3.1
