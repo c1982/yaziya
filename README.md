@@ -55,11 +55,4 @@ go get -u github.com/c1982/yaziya
 Oğuzhan
 aspsrc@gmail.com
 
-Parçalı yazı ile ilgili commit.
-
-CocaCola için yeni commit eklenmiş hali.
-
-
-Release için güncellemeler yapıldı.
-
-1.2.0 sürümündeki hatayı giderdik.
+yeni özellik ekledim.
