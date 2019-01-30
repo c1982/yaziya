@@ -61,3 +61,5 @@ CocaCola için yeni commit eklenmiş hali.
 
 
 Release için güncellemeler yapıldı.
+
+1.2.0 sürümündeki hatayı giderdik.
