@@ -54,3 +54,5 @@ go get -u github.com/c1982/yaziya
 
 Oğuzhan
 aspsrc@gmail.com
+
+update readme hostfix 1.1.1
