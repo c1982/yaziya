@@ -75,15 +75,3 @@ func padding3(str string) string {
 
 	return str
 }
-
-func madding() string {
-	return "bu bir yeni özellik"
-}
-
-func xadding() string {
-	return "bu bir yeni özellik"
-}
-
-func zadding() string {
-	return "bu bir yeni özellik"
-}
