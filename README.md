@@ -58,3 +58,6 @@ aspsrc@gmail.com
 yeni özellik ekledim.
 
 ingilizce brach'ı için değişiklklşe
+
+
+release 1.3.0 için readme güncellendi.
