@@ -58,3 +58,6 @@ aspsrc@gmail.com
 Parçalı yazı ile ilgili commit.
 
 CocaCola için yeni commit eklenmiş hali.
+
+
+Release için güncellemeler yapıldı.
