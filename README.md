@@ -56,3 +56,5 @@ Oğuzhan
 aspsrc@gmail.com
 
 Parçalı yazı ile ilgili commit.
+
+CocaCola için yeni commit eklenmiş hali.
