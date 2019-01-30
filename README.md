@@ -55,11 +55,9 @@ go get -u github.com/c1982/yaziya
 Oğuzhan
 aspsrc@gmail.com
 
-Parçalı yazı ile ilgili commit.
+yeni özellik ekledim.
 
-CocaCola için yeni commit eklenmiş hali.
+ingilizce brach'ı için değişiklklşe
 
 
-Release için güncellemeler yapıldı.
-
-1.2.0 sürümündeki hatayı giderdik.
+release 1.3.0 için readme güncellendi.
